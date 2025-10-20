@@ -143,14 +143,10 @@ ul {
 }
 
 .sidebysideR > .sbs2 {
-    display: flex;
-    justify-content: center;
     margin-left: 5%;
 }
 
 .sidebysideL>.sbs1 {
-    display: flex;
-    justify-content: center;
     margin-right: 5%;
 }
 
@@ -168,6 +164,7 @@ img {
     border-radius: 7px;
     background-color: lightgrey;
     width: 100%;
+    height: auto;
 }
 
 .BButton {
