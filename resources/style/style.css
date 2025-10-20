@@ -68,7 +68,7 @@ ul {
 }
 
 
-/* Side by side */
+/* Side by side, equal spacing */
 .sidebyside {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -76,13 +76,16 @@ ul {
 
 .sidebyside > .sbs1 {
     grid-column: span 3 / span 3;
+    margin-right: 2%;
 }
 
 .sidebyside > .sbs2 {
     grid-column: span 3 / span 3;
     grid-column-start: 4;
+    margin-left: 2%;
 }
 
+/* Side by side, LEFT is bigger */
 .sidebysideL {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -97,6 +100,7 @@ ul {
     grid-column-start: 5;
 }
 
+/* Side by side, RIGHT is bigger */
 .sidebysideR {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -109,4 +113,34 @@ ul {
 .sidebysideR >.sbs2 {
     grid-column: span 4 / span 4;
     grid-column-start: 4;
+}
+
+.sidebysideR > .sbs2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.sidebysideL>.sbs1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+
+
+.sbs1 img {
+    width: 100%;
+    height: auto;
+}
+
+.sbs2 img {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    border-radius: 25px;
+    border-style:solid;
+    width: 100%;
 }
