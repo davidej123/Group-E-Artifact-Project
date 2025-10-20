@@ -166,7 +166,7 @@ ul {
 
 img {
     border-radius: 7px;
-    border-style:solid;
+    background-color: lightgrey;
     width: 100%;
 }
 
