@@ -250,3 +250,49 @@ img {
     grid-column-start: 3;
     text-align: right;
 }
+
+.BButtonS {
+    margin-top: 0px;
+    background-color: #242629;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #232836;
+}
+
+.BButtonS:hover {
+    background-color: #040405;
+}
+
+.BButtonS:active {
+    position: relative;
+    top: 1px;
+}
+
+.WButtonS {
+    margin-top: 0px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-size: 17px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.WButtonS:hover {
+    background-color: #d4d4d4;
+}
+
+.WButtonS:active {
+    position: relative;
+    top: 1px;
+}
